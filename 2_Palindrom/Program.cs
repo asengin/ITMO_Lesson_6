@@ -19,7 +19,7 @@ namespace _2_Palindrom
          */
         static void Main(string[] args)
         {
-            Console.WriteLine("Введите предложение: ");
+            Console.Write("Введите предложение: ");
             string enteredString = Console.ReadLine().ToLower().Replace(" ", ""); //в нижний регистр, убраны пробелы
             char[] stringArray = enteredString.ToCharArray(); //перевод в массив символов
             Array.Reverse(stringArray); 
